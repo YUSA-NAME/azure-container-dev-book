@@ -15,7 +15,7 @@ env:
 jobs:
   release:
     name: Release
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest # 最新のUbuntuで実行
     outputs:
       repo_owner: ${{ steps.prep.outputs.repo_owner }}
 
